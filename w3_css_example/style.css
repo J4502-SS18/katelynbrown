@@ -28,11 +28,7 @@ h1{
   padding: 0;
 }
 
-#nav li {
-  /* text-decoration: none; */
-}
-
-#nav a:link {
+#nav a:link, #nav a:visited {
   text-decoration: none;
   color: #ffffff;
   background-color: #98bf21;
