@@ -12,6 +12,7 @@ h1 {
   font-weight: bolder;
   text-align: inherit;
   color: black;
+  background-color: teal;
 }
 
 #container {
@@ -46,8 +47,4 @@ h1 {
 
 img {
   border: none;
-}
-
-h1 {
-  background-color: teal;
 }
