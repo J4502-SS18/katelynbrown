@@ -1,7 +1,7 @@
 p {
   color: blue;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: normal;
   text-align: inherit;
 }
@@ -12,7 +12,7 @@ h1 {
   font-weight: bolder;
   text-align: inherit;
   color: black;
-  background-color: teal;
+  line-height: 1.25%;
 }
 
 #container {
