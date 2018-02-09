@@ -1,17 +1,21 @@
 p {
-  color: blue;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #484f4f;
+  font-family: 'PT Sans', sans-serif, Helvetica, Arial;
   font-size: 16px;
   font-weight: normal;
   text-align: inherit;
 }
 
+.italic {
+  font-style: italic;
+}
+
 h1 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'PT Serif', Georgia, "Times New Roman", serif;
   font-size: 35px;
   font-weight: bolder;
   text-align: inherit;
-  color: black;
+  color: #563f46;
   line-height: 1.25%;
 }
 
@@ -32,7 +36,7 @@ h1 {
 
 #nav a:link, #nav a:visited {
   color: #ffffff;
-  background-color: #ff1493;
+  background-color: #8ca3a3;
   font-weight: bold;
   display: block;
   text-decoration: none;
@@ -42,9 +46,14 @@ h1 {
 }
 
 #nav a:hover, #nav a:active {
-  background-color: pink;
+  background-color: #c8c3cc;
 }
 
 img {
   border: none;
+}
+
+a:link {
+  color: #58995E;
+  text-decoration: none;
 }
