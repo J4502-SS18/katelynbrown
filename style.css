@@ -39,6 +39,8 @@ h1 {
   flex-direction: row;
 }
 
+/*have to make ul flexible*/
+
 #nav a:link, #nav a:visited {
   color: #ffffff;
   background-color: #8ca3a3;
@@ -56,6 +58,7 @@ h1 {
 
 img {
   border: none;
+  width: 100%;
 }
 
 a:link {
