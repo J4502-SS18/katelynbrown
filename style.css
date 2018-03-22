@@ -6,7 +6,7 @@ p {
   text-align: inherit;
 }
 
-.italic {
+footer {
   font-style: italic;
 }
 
@@ -20,40 +20,43 @@ h1 {
 }
 
 #container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
-  flex-flow: wrap;
-  flex-grow: 2;
-  justify-content: space-around;
 }
 
-#nav {
-  padding: 0;
-  list-style-type: none;
+.navigation{
+	list-style: none;
+	margin: 0;
+	background: #8ca3a3;
+    padding: 0;
+    display: flex;
+	flex-flow: column;
 }
 
-#nav li {
-  margin: 0;
-  padding: 0;
-  display: inline-flex;
-  flex-direction: row;
-}
-
-/*have to make ul flexible*/
-
-#nav a:link, #nav a:visited {
+.navigation a:link, .navigation a:visited {
   color: #ffffff;
   background-color: #8ca3a3;
   font-weight: bold;
-  /*display: block;*/
   text-decoration: none;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
   padding: 4px;
 }
 
-#nav a:hover, #nav a:active {
+.navigation a:hover, .navigation a:active {
   background-color: #c8c3cc;
+}
+
+.navigation a {
+	text-decoration: none;
+  text-align:center;
+  display: block;
+  padding: 10px;
+  border-bottom:1px solid grey;
+}
+
+.navigation li:last-of-type a{
+  border-bottom: none;
 }
 
 img {
@@ -66,15 +69,66 @@ a:link {
   text-decoration: none;
 }
 
-@media (min-width: 600px) {
-	.container {
-		flex-direction: row;
-		justify-content: center;
-	}
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
 }
 
-@media (min-width: 800px) {
-	.item-1 {
-		margin-right: auto;
-	}
+@media (min-width:800px) {
+
+      .navigation {
+          flex-flow: row wrap;
+          justify-content: flex-end;
+      }
+
+      .navigation a {
+          border: none;
+      }
+
+      .navigation a:hover {
+      	background: #c8c3cc;
+      }
+
+      .logo{
+        margin-right: auto;
+      }
+
+      aside {
+          flex: 1 auto;
+      }
+
+      article {
+      flex: 3 0px;
+    }
+
+    header{
+      order: 1;
+    }
+
+      .aside-1 {
+          order: 2;
+      }
+
+      article{
+          order: 3;
+      }
+
+      .aside-2 {
+          order: 4;
+      }
+
+      footer {
+          order: 5;
+      }
+
+      article {
+          display: flex;
+          flex-flow: row;
+          flex-wrap: wrap;
+      }
+
+      .image {
+          width: 45%;
+          margin-right: 10px;
+      }
 }
