@@ -9,6 +9,15 @@
     grid-template-columns: 1fr auto 1fr;
 }
 
+.cards .card2 {
+  width: 300px;
+
+}
+
+.cards .card4 {
+  height: 300px;
+}
+
 .cards li {
     background-color: #f1b82d;
     border: 1px solid #ccc;

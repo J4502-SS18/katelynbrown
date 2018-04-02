@@ -2,6 +2,18 @@
 
 .example {
     display: grid;
+    /*grid-template-columns: 1fr 4fr 1fr;*/
+    grid-template-columns: 150px 5fr 150px;
+    grid-gap: 20px;
+}
+
+.content {
+  grid-column: 2;
+}
+
+.sidebar1 {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .example > * {
