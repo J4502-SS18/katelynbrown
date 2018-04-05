@@ -71,10 +71,10 @@ a:link {
   text-decoration: none;
 }
 
-.wrapper {
+/*.wrapper {
     display: flex;
     flex-flow: row wrap;
-}
+}*/
 
 @media screen and (min-width: 450px) {
 
