@@ -76,11 +76,20 @@ a:link {
     flex-flow: row wrap;
 }
 
+
+
 @media screen and (min-width: 450px) {
 
   .navigation {
     flex-flow: row;
     justify-content: space-between;
+  }
+
+  .menu-trigger {
+      order: 1;
+      font-size: 1.75em;
+      width: 2em;
+      display: block;
   }
 }
 
@@ -94,6 +103,12 @@ a:link {
     display: block;
     width: 100%;
     margin-top: 0.5em;
+  }
+
+  .menu-trigger {
+      display: none;
+      font-size: 1.75em;
+      width: 2em;
   }
 }
 
@@ -110,6 +125,12 @@ a:link {
   .aside-1 {
     display: block;
   }
+
+  .menu-trigger {
+      display: none;
+      font-size: 1.75em;
+      width: 2em;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -145,6 +166,12 @@ a:link {
   .story2 {
     grid-area: e;
   }
+
+  .menu-trigger {
+      display: none;
+      font-size: 1.75em;
+      width: 2em;
+    }
 
 }
 
