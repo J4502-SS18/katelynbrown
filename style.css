@@ -95,6 +95,7 @@ a:link {
   .navigation {
     display: none;
   }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -152,6 +153,11 @@ a:link {
     display: flex;
   }
 
+  .map {
+    display: grid;
+    max-width: auto;
+  }
+
   article {
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
@@ -160,6 +166,8 @@ a:link {
     "a c c"
     "b b d"
     "e e e"
+    ". f ."
+    ". g ."
     ;
   }
 
@@ -182,6 +190,14 @@ a:link {
 
   .story2 {
     grid-area: e;
+  }
+
+  .map {
+    grid-area: f;
+  }
+
+  .footer {
+    grid-area: g;
   }
 
   .menu-trigger {
