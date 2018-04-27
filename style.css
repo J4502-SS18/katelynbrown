@@ -96,6 +96,7 @@ a:link {
     display: none;
   }
 
+
 }
 
 @media screen and (min-width: 600px) {
@@ -151,11 +152,6 @@ a:link {
 
   .navigation {
     display: flex;
-  }
-
-  .map {
-    display: grid;
-    max-width: auto;
   }
 
   article {
